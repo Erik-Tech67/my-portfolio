@@ -1,0 +1,55 @@
+body {
+    background-color: #e0e6e8; /* A light gray background */
+    font-family: 'Times New Roman', Times, serif;    /* A clean, simple font */
+    line-height: 1.6;                  /* Space between lines of text */
+}
+
+.container {
+    width: 800px;                      /* Set a fixed width */
+    margin: 0 auto;                    /* A trick to center the box */
+    background-color: #ffffff;         /* A white background for the box */
+    padding: 20px;                     /* Space inside the box */
+    border-radius: 8px;                /* Nice rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* A subtle drop shadow */
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #005a9c; /* A nice blue color */
+    border-bottom: 2px solid #f0f4f8; /* A line underneath */
+    padding-bottom: 5px;
+}
+
+header {
+    text-align: center; /* Center the header content */
+    margin-bottom: 20px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* This makes the image a circle */
+    border: 4px solid #ffffff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #f0f4f8; /* A line to separate the footer */
+    font-size: 0.9em;
+    color: #777;
+}
+
+footer a {
+    color: #005a9c; /* Use the same blue as our h2 */
+    text-decoration: none; /* Remove the underline */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Add underline back on hover */
+}
